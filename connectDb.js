@@ -1,4 +1,5 @@
 let mongoose = require('mongoose')
+// 连接操作
 module.exports = function () {
     return new Promise((resolve, reject) => {
         // 连接

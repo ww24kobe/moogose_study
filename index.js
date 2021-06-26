@@ -11,7 +11,7 @@ app.get('/read', async (req, res) => {
 })
 
 app.get('/readone', async (req, res) => {
-    var result = await userModel.findOne({username:"郑健"});
+    var result = await userModel.findOne({username:"李目"});
     res.json(result)
 })
 
@@ -21,7 +21,7 @@ app.get('/deleteMany', async (req, res) => {
 })
 
 app.get('/deleteone', async (req, res) => {
-    var result = await userModel.deleteOne({username:"郑健"});
+    var result = await userModel.deleteOne({username:"李白"});
     res.json(result)
 })
 

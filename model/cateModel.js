@@ -8,5 +8,5 @@ let cateSchema = new Schema({
 })
 
 //  2. 根据所定义的集合schema，得到表对象model
-// New mongoose.model('集合名词','集合字段约束');
+// New mongoose.model('集合名（表名）','集合字段约束');
 module.exports = new mongoose.model('cate',cateSchema);
